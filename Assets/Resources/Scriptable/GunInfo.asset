@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a570689eddfa9548994ac85524114e7, type: 3}
+  m_Name: GunInfo
+  m_EditorClassIdentifier: 
+  gunInfo:
+  - id: w00001
+    sprite: {fileID: 21300000, guid: c983b154f8e1082499ec4ff227351d4c, type: 3}
+    type: 0
+    gunName: Blaster
+    gunStatus:
+      damage: 30
+      shockWeight: 400
+      attackSpeed: 0.6
+      staggerWeight: 1.5
+      minRecoil: 1
+      maxRecoil: 2
+      maxDamage: 0
+      maxShockFigure: 0
+      maxChargingTime: 0
+    bulletStatus:
+      bulletRadius: 0.4
+      speed: 30
+      weight: 0
+      lifeTime: 5
+  - id: w00002
+    sprite: {fileID: 21300000, guid: c15a12d7822e66648aee75067a2e372a, type: 3}
+    type: 0
+    gunName: Revolver
+    gunStatus:
+      damage: 50
+      shockWeight: 550
+      attackSpeed: 1
+      staggerWeight: 1
+      minRecoil: 3
+      maxRecoil: 4
+      maxDamage: 0
+      maxShockFigure: 0
+      maxChargingTime: 0
+    bulletStatus:
+      bulletRadius: 0.5
+      speed: 25
+      weight: 0
+      lifeTime: 5
+  - id: w00003
+    sprite: {fileID: 21300000, guid: c15516d0d190b054b824539e77d11576, type: 3}
+    type: 1
+    gunName: MicroUzi
+    gunStatus:
+      damage: 6
+      shockWeight: 150
+      attackSpeed: 0.1
+      staggerWeight: 0.3
+      minRecoil: 0.5
+      maxRecoil: 1
+      maxDamage: 0
+      maxShockFigure: 0
+      maxChargingTime: 0
+    bulletStatus:
+      bulletRadius: 0.3
+      speed: 30
+      weight: 0
+      lifeTime: 3
+  - id: w00004
+    sprite: {fileID: 21300000, guid: 8a059ef4781a00a4d9a10d2ad79f3e69, type: 3}
+    type: 2
+    gunName: CosmoSniper
+    gunStatus:
+      damage: 25
+      shockWeight: 300
+      attackSpeed: 1.25
+      staggerWeight: 1.25
+      minRecoil: 5
+      maxRecoil: 7
+      maxDamage: 70
+      maxShockFigure: 750
+      maxChargingTime: 3
+    bulletStatus:
+      bulletRadius: 0.4
+      speed: 35
+      weight: 0
+      lifeTime: 5

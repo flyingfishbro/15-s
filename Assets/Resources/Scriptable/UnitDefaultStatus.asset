@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d613a809609458f4395c403901375de9, type: 3}
+  m_Name: UnitDefaultStatus
+  m_EditorClassIdentifier: 
+  maxHp: 150
+  toCloseJumpPower: 470
+  toFarJumpPower: 300
+  maxAimRot: 45
+  minAimRot: -45
+  headShotAddDamage: 1
+  shieldDuration: 3
+  staggerPer_Head: 5
+  staggerPer_Body: 2
+  unitLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  unitHitLayer:
+    serializedVersion: 2
+    m_Bits: 128

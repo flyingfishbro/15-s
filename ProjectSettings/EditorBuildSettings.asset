@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/scene flow/1. MainMenu.unity
+    guid: ce181aff7548696418dc7e81c0d8bb19
+  - enabled: 1
+    path: Assets/Scenes/scene flow/RoundProgress 0.unity
+    guid: 59239014897f39344848740988fc7b47
+  - enabled: 1
+    path: Assets/Scenes/mainmenu.unity
+    guid: afaf1bda8b1006146a965f617dc863a3
+  - enabled: 1
+    path: Assets/Scenes/_Scene/BattleMap_Default.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/scene flow/RoundProgress 1.unity
+    guid: 076b63add87e9d041a610a176e8a9270
+  - enabled: 1
+    path: Assets/Scenes/scene flow/4. Defeat.unity
+    guid: 4fd318dcf9063e34ebbf8a31da3a7012
+  - enabled: 1
+    path: Assets/Scenes/scene flow/5. Recruitment.unity
+    guid: ea3e722d08aae53488909ed8c1d27c6f
+  - enabled: 1
+    path: Assets/Scenes/scene flow/RoundProgress 2.unity
+    guid: 258daa878fd23ef4ea393fb632d6e0d9
+  - enabled: 1
+    path: Assets/Scenes/scene flow/RoundProgress 3.unity
+    guid: 3ee23966070ad4e4e9da5b4888447e85
+  - enabled: 1
+    path: Assets/Scenes/scene flow/10. RoundEnd.unity
+    guid: 180d98002a62b56409d305ddcc38620a
+  - enabled: 1
+    path: Assets/Scenes/scene flow/11.Win.unity
+    guid: fa5245183da15ed4f8bfc70a85350bf1
+  m_configObjects: {}
