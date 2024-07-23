@@ -82,7 +82,6 @@ public class BattleMode_ThreeToThree : BattleMode
         Time.timeScale = .5f;
 
         yield return new WaitForSeconds(1f);
-
         yield return new WaitUntil(() => !(retire.rb.velocity.magnitude > 0.5f));
 
         #endregion

@@ -159,7 +159,10 @@ public class UnitHitProcess : UnitPartial
         // 데미지 적용 및 이펙트 호출
         unit.status.SetHp(unit.status.hp - finalDamage);
 
+        // 피격 사운드 적용_mary
         unit.InvokeUnitStatusEvent();
+        int rand = Random.Range(0, 6);
+        SoundManager.Instance.Play($"Hit{rand}");
 
 
         //print($"is Stagger: {CalStagger(attackIntend.staggerPercent, (UnitHitInterface.HitBoxType)hitBoxType, finalDamage)}");

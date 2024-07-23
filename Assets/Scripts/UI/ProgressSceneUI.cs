@@ -38,13 +38,13 @@ public class ProgressSceneUI : UI_Instance
         yield return new WaitForSeconds(3);
 
 
-        targetAlpha = 0;
-        while (Mathf.Abs(targetAlpha - _ProgressUI.alpha) > 0.01f)
-        {
-            yield return null;
-            _ProgressUI.alpha = Mathf.Lerp(_ProgressUI.alpha, targetAlpha, 0.1f);
-        }
-        _ProgressUI.alpha = targetAlpha;
+        //targetAlpha = 0;
+        //while (Mathf.Abs(targetAlpha - _ProgressUI.alpha) > 0.01f)
+        //{
+        //    yield return null;
+        //    _ProgressUI.alpha = Mathf.Lerp(_ProgressUI.alpha, targetAlpha, 0.1f);
+        //}
+        //_ProgressUI.alpha = targetAlpha;
 
     }
 

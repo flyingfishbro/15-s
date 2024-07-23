@@ -46,6 +46,7 @@ public class PauseInput : BattleInputSystem
             }
 
             _isClicking = true;
+            SoundManager.Instance.Play("ButtonClick");
         }
         else
         {

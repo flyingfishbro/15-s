@@ -13,10 +13,7 @@ public class GoMain : MonoBehaviour
 
     void GoToMain()
     {
+        GameData.instance.currentRound = 0;
         SceneManager.LoadScene("1. MainMenu");
     }
-
- 
-
-
 }

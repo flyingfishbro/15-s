@@ -29,9 +29,4 @@ public class PanelSetting : MonoBehaviour
         gameObject.SetActive(false);
         _isOn = false;
     }
-
-    private void Awake()
-    {
-        Off();
-    }
 }

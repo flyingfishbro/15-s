@@ -9,6 +9,13 @@ public class UI_tournament : MonoBehaviour
     private Button _btnSetting;
     [SerializeField]
     private Button _btnInfo;
+    [SerializeField]
+    private Button _btnDown1;
+    [SerializeField]
+    private Button _btnDown2;
+    [SerializeField]
+    private Button _btnDown3;
+
 
     [SerializeField]
     private PanelSetting _canvasInfo;
@@ -20,10 +27,25 @@ public class UI_tournament : MonoBehaviour
         _btnSetting.onClick.AddListener(() =>
         {
             _panelSetting.Switch();
+            SoundManager.Instance.Play("ButtonClick");
+
         });
         _btnInfo.onClick.AddListener(() =>
         {
             _canvasInfo.Switch();
+            SoundManager.Instance.Play("ButtonClick");
+        });
+        _btnDown1.onClick.AddListener(() =>
+        {
+            SoundManager.Instance.Play("DownButtonClick");
+        });
+        _btnDown2.onClick.AddListener(() =>
+        {
+            SoundManager.Instance.Play("DownButtonClick");
+        });
+        _btnDown3.onClick.AddListener(() =>
+        {
+            SoundManager.Instance.Play("DownButtonClick");
         });
     }
 }

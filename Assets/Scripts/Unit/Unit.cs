@@ -291,7 +291,7 @@ public class Unit : Hitable
                 Vector3 ret = ((velocityDir * moveForce + Vector3.up * 1.4f) * jumpVelocity);
 
                 rb.AddForce(ret);
-
+                SoundManager.Instance.Play("JetStart");
 
 
                 if (jumpCo != null)

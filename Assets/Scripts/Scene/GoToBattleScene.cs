@@ -30,8 +30,7 @@ public class GoToBattleScene : MonoBehaviour
         }
         gravityText.text += $".{str[str.Length - 1]}G";
 
-
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(3f);
         SceneManager.LoadScene("BattleMap_Default");
     }
 

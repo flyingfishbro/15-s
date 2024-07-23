@@ -40,6 +40,7 @@ public class UnitChangeManager : MonoBehaviour
         //UFO 가 내려옵니다.
         //죽는 모션 애니메이션에서 모델의 이동이 있으므로
         //Ufo위치 세팅 한정으로만 Unit기준의 포지션이 아닌 Unit의 모델을 기준으로 포지션을 잡고 이동합니다.
+        SoundManager.Instance.Play("UfoCome");
         while (true)
         {
             yield return null;
@@ -58,6 +59,7 @@ public class UnitChangeManager : MonoBehaviour
 
         //UFO가 빔을 쏘는 애니메이션을 시작하며 적정시간이 지나도록 기다립니다.
         ufo.SetTractorBeam(true);
+        SoundManager.Instance.Play("UfoBeamdown");
         yield return new WaitForSeconds(1f);
 
 
@@ -80,7 +82,7 @@ public class UnitChangeManager : MonoBehaviour
 
 
         #region UFO TurnBack
-
+        SoundManager.Instance.Play("UfoGone");
         while (true)
         {
             yield return null;

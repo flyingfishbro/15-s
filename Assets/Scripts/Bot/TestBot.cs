@@ -9,7 +9,7 @@ public class TestBot : MonoBehaviour
 
     private bool canAttack = false;
 
-    public float attackTermWeight = 2f;
+    public float attackTermWeight = 3f;
 
     public Gun GetCurrentGun()
     {
@@ -30,6 +30,7 @@ public class TestBot : MonoBehaviour
     private void Start()
     {
         attackTermCo = StartCoroutine(AttackTermCoroutine());
+        SoundManager.Instance.Play("Ready");
     }
 
     // Update is called once per frame

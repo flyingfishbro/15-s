@@ -27,8 +27,6 @@ public sealed class MainMenuStartButton : MonoBehaviour
 
     private void Awake()
     {
-
-
         _StartButtonImage = GetComponent<Image>();
         _EventTrigger = GetComponent<EventTrigger>();
 
@@ -38,7 +36,6 @@ public sealed class MainMenuStartButton : MonoBehaviour
 
         _EventTrigger.triggers.Add(onStartButtonClickEvent);
     }
-
 
     /// <summary>
     /// 플레이어 팀 정보를 생성하여 반환합니다.
@@ -133,6 +130,8 @@ public sealed class MainMenuStartButton : MonoBehaviour
 
         Debug.Log("playerTeamInfo = " + playerTeamInfo);
         Debug.Log("enemyTeamInfo = " + enemyTeamInfo);
+
+        SoundManager.Instance.Play("StartButton");
 
         // 씬 이동
         SceneManager.LoadScene("RoundProgress 0");

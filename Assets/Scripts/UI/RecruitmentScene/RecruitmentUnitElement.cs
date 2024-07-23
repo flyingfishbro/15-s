@@ -53,6 +53,7 @@ public class RecruitmentUnitElement : ProgressInputSystem
             {
                 ui.SetSelectedUnit(index, _Unit);
             }
+            SoundManager.Instance.Play("ButtonClick");
 
         }
 

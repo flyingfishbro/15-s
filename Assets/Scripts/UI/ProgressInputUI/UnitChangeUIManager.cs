@@ -17,6 +17,8 @@ public class UnitChangeUIManager : MonoBehaviour
 
     private void SetSelectedUnit(Unit unit)
     {
+        SoundManager.Instance.Play("ButtonClick");
+
         //이미 먼저 입력을 받았을 경우 더이상 입력을 받지 않음.
         if (selectedUnit != null) return;
 
